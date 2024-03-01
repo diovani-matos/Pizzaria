@@ -71,9 +71,9 @@ function TopRated() {
     >
       <h1
         data-aos="zoom-in"
-        className="text-4xl text-black font-bold text-center"
+        className="text-5xl text-black font-bold text-center"
       >
-        MAIS VOTADOS
+        FAVORITOS
       </h1>
       <p data-aos="zoom-in" className="text-xl text-black text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, pariatur

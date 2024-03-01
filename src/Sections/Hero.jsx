@@ -22,10 +22,11 @@ function Hero() {
         A vida é uma combinação <br /> de Pizza & Mágica
       </h1>
       <p data-aos="zoom-in" className="text-xl text-white font-lg">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
-        illo minus assumenda maiores dolorum. Facere est mollitia tempora
-        expedita? Nulla repudiandae perspiciatis laboriosam accusantium vel
-        accusamus quisquam. Suscipit!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        <br /> Perspiciatis illo minus assumenda maiores dolorum. Facere est
+        <br /> mollitia tempora expedita? Nulla repudiandae perspiciatis
+        <br />
+        laboriosam accusantium vel accusamus quisquam. Suscipit!
       </p>
       <button
         data-aos="flip-up"
