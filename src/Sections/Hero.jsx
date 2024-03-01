@@ -15,7 +15,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="w-full lg:px-20 px-10 lg:py-20 py-10 h-[600px] bg-cover bg-center flex flex-col justify-center items-start gap-8"
+      className="w-full lg:px-20 px-10 lg:py-20 py-10 h-fit bg-cover bg-center flex flex-col justify-center items-start gap-8"
       style={{ backgroundImage: `url(${Banner4})` }}
     >
       <h1 data-aos="zoom-in" className="text-6xl text-white font-bold">

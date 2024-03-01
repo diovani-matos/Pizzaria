@@ -86,7 +86,7 @@ function About() {
         <div className="flex flex-col justify-center items-center gap-8">
           <h1
             data-aos="zoom-in"
-            className="text-2xl text-black font-semibold text-center"
+            className="text-5xl text-black font-semibold text-center"
           >
             BEM VINDO
           </h1>

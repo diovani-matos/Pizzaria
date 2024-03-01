@@ -67,7 +67,7 @@ function TopRated() {
   return (
     <section
       id="pizza"
-      className="h-fit w-full lg:px-20 lg:py-20 flex flex-col justify-center items-center gap-6"
+      className="h-fit w-full my-10 lg:px-20 lg:py-20 flex flex-col justify-center items-center gap-6"
     >
       <h1
         data-aos="zoom-in"
