@@ -21,7 +21,7 @@ function Hero() {
       <h1 data-aos="zoom-in" className="text-6xl text-white font-bold">
         A vida é uma combinação <br /> de Pizza & Mágica
       </h1>
-      <p data-aos="zoon-in" className="text-xl text-white font-lg">
+      <p data-aos="zoom-in" className="text-xl text-white font-lg">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
         illo minus assumenda maiores dolorum. Facere est mollitia tempora
         expedita? Nulla repudiandae perspiciatis laboriosam accusantium vel

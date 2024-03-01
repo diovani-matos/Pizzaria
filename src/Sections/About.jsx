@@ -21,7 +21,10 @@ function About() {
         id="about"
         className="w-full lg:px-20 px10 lg:py-20 py-10 h-fit grid lg:grid-cols-4 grid-cols-1 justify-center items-center gap-10"
       >
-        <div className="border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer ">
+        <div
+          data-aos="zoom-in"
+          className="lg:mx-0 md:mx-32 border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer "
+        >
           <img
             src={icon1}
             alt=""
@@ -31,7 +34,10 @@ function About() {
             SOBRE NÓS
           </h1>
         </div>
-        <div className="border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer ">
+        <div
+          data-aos="zoom-in"
+          className="lg:mx-0 md:mx-32 border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer "
+        >
           <img
             src={icon2}
             alt=""
@@ -41,7 +47,10 @@ function About() {
             VEGANO
           </h1>
         </div>
-        <div className="border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer ">
+        <div
+          data-aos="zoom-in"
+          className="lg:mx-0 md:mx-32 border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer "
+        >
           <img
             src={icon3}
             alt=""
@@ -51,7 +60,10 @@ function About() {
             PIZZA
           </h1>
         </div>
-        <div className="border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer ">
+        <div
+          data-aos="zoom-in"
+          className="lg:mx-0 md:mx-32 border-[2px] border-orange-500 p-14 flex flex-col justify-center items-center gap-6 rounded-xl hover:bg-orange-100 cursor-pointer "
+        >
           <img
             src={icon4}
             alt=""
@@ -65,7 +77,7 @@ function About() {
       <section className="w-full lg:px-20 px-10 lg:py-10 h-fit grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-10">
         <div>
           <img
-            data-aos="zoon-in"
+            data-aos="zoom-in"
             src={about1}
             alt="imagem sobre"
             className="lg:w-[800px] lg:h-[600px] rounded-xl"
@@ -73,17 +85,27 @@ function About() {
         </div>
         <div className="flex flex-col justify-center items-center gap-8">
           <h1
-            data-aos="zoon-in"
+            data-aos="zoom-in"
             className="text-2xl text-black font-semibold text-center"
           >
             BEM VINDO
           </h1>
           <h1
-            data-aos="zoon-in"
+            data-aos="zoom-in"
             className="text-6xl text-black font-bold text-center"
           >
             Napoli Pizzas
           </h1>
+          <p data-aos="zoom-in" className="text-xl text-slate-800 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            provident cum, at itaque quaerat sit impedit! Omnis hic neque error.
+          </p>
+          <button
+            data-aos="flip-up"
+            className="bg-orange-500 text-lg text-white px-8 py-4 rounded-full font-semi-bold hover:bg-black hover:text-white"
+          >
+            Compre agora
+          </button>
         </div>
       </section>
     </>
